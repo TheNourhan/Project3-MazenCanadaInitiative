@@ -1,0 +1,85 @@
+*{
+	text-decoration: none;
+	font-family: 'nunito sans';
+	color: black;
+}
+img{
+	width: 200px;
+	height: 200px;
+}
+/*-------------- 1- HEADER ----------------*/
+nav{
+	font-size: 18px;
+}
+ul,li,#logo{
+	display: inline-block;
+}
+#logo{
+	margin-left: 3%;
+}
+ul{
+	float: right;
+	margin-right: 3%;
+}
+li{
+	padding-left: 70px;
+}
+span{
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 50%;
+	background-color: gray;	
+}
+/*-------------- 2- INTRO SECTION ----------------*/
+#section-intro{
+	text-align: center;
+	padding-bottom: 100px;
+	margin-right: 3%;
+	margin-left: 3%;
+	width: 1200px;
+}
+/*-------------- 3- WHERE FOLLOW ------------------*/
+h1{
+	text-align: center;
+	margin-right: 3%;
+	margin-left: 3%;
+	padding-bottom: 30px;
+	font-size: 55px;
+}
+h2{
+	font-size: 40px;
+}
+#section-where-to-follow{
+	margin-right: 3%;
+	margin-left: 3%;
+	width: 1200px;
+}
+#img1{
+	margin-right: 20%;
+	margin-left:10% ;
+	padding-top: 30px;
+}
+.youtube-para{
+	width: 50%;
+	float: right;
+	text-align: center;
+	font-size: 18px;
+}
+.insta-para{
+	width: 50%;
+	float: left;
+	text-align: center;
+	padding-top: 150px;
+	font-size: 18px;
+}
+#img2{
+	margin-right: 10%;
+	margin-left:20% ;
+	padding-top: 100px;
+}
+/*---------------- 5- FOOTER ------------------*/
+#footer{
+	font-size: 18PX;
+	padding-top: 50px;
+	text-align: center;
+}

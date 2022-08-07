@@ -1,0 +1,118 @@
+*{
+	text-decoration: none;
+	font-family: 'nunito sans';
+	color: black;
+}
+p{
+	padding-top: 30px;
+	padding-bottom: 25px;
+}
+h1{
+	font-size: 55px;
+}
+/* -------------- 1- HEADER -----------------*/
+#header{
+	margin: 0 auto;
+}
+#logo{
+	display: inline-block;
+	padding-top: 5px;
+	margin-left: 5%;
+}
+ul{
+	float: right;
+}
+li{
+	display: inline-block;
+	padding-right: 70px;
+}
+span{
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 50%;
+	background-color: gray;	
+}
+/* ---------- 2- INTRO SECTION --------------*/
+#section-intro{
+	width: 1200px;
+}
+.left-part, .right-part{
+	display: inline-block;
+}
+#infovideo{
+	margin-left: 5%;
+}
+.left-part{
+	width: 50%;
+}
+#section-intro, .left-part{
+	height: 380px;
+}
+.right-part{
+	float: right;
+	width: 40%;
+	margin-right: 5%;
+}
+/* ---------- 3- INTRO SECTION 2 --------------*/
+#section-intro-2{
+	padding-top: 20px;
+	width: 1200px;
+}
+#sec-table{
+	height: 550px;
+	margin-left: 5%;
+}
+#sec-info{
+	height: 550px;
+	text-align: center;
+}
+.table-Competitors{
+	border: 1px solid black;
+}
+th,td{
+	padding: 1px;
+}
+/*------------- 4- LATEST VIDEOS ---------------*/
+#partone{
+	margin-right: 5%;
+}
+#latest-videos{
+	padding-top: 20px;
+}
+#partone-left{
+	height: 100px;
+	margin-left: 5%;
+}
+#partone-right{
+	padding-top: 100px;
+	height: 70px;
+	text-align: right;
+}
+#parttwo-grid{
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 20px;
+	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	grid-auto-rows: minmax(200px,auto);
+	grid-template-areas:"gvideo1 gvideo2 gvideo3";
+	grid-gap: 10px;
+}
+.video1{
+	grid-area: gvideo1;
+	border: solid 2px;
+}
+.video2{
+	grid-area: gvideo2;
+	border: solid 2px;
+}
+.video3{
+	grid-area: gvideo3;
+	border: solid 2px;
+}
+/*------------- 5- FOOTER ---------------*/
+#footer{
+	text-align: center;
+}
+
