@@ -7,7 +7,18 @@ img{
 	width: 200px;
 	height: 200px;
 }
+main{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.pink{
+	color: #B67DFF;
+}
 /*-------------- 1- HEADER ----------------*/
+header{
+	max-width: 1200px;
+	margin: 0 auto;
+}
 nav{
 	font-size: 18px;
 }
